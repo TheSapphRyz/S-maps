@@ -2,10 +2,14 @@
 ## What is this?
 A small initial map editor project for my game and future **game engine**. Supports both orthogonal and isometric editing of isometric maps.
 The following libraries were used:
-> [raylib&raymath](https://github.com/raysan5/raylib)
-> [raygui](https://github.com/raysan5/raygui)
-> [nfd](https://github.com/btzy/nativefiledialog-extended)
-> [zvec](https://github.com/Zuhaitz-dev/zvec.h)(if he ll add C++ support)
+
+[raylib&raymath](https://github.com/raysan5/raylib) ![RayLib](https://img.shields.io/badge/RAYLIB-FFFFFF?style=for-the-badge&logo=raylib&logoColor=black) ![Vulkan API](https://img.shields.io/badge/Vulkan-AC162C.svg?style=for-the-badge&logo=vulkan&logoColor=white&logoSize=auto)
+
+[raygui](https://github.com/raysan5/raygui)
+
+[nfd](https://github.com/btzy/nativefiledialog-extended)
+
+[zvec](https://github.com/Zuhaitz-dev/zvec.h)(if he ll add C++ support)
 
 ## What's next?
 - more functionality
