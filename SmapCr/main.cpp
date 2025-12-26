@@ -628,10 +628,16 @@ int main() {
 
             GuiLabel({ 20, 160, 230, 20 }, TextFormat("Current: %s", toolNames[currentTool]));
 
-            isIsometric = GuiCheckBox({ 20, 185, 20, 20 }, NULL, &isIsometric);
+            // Изометрический вид
+            if (GuiToggle({ 20, 185, 20, 20 }, NULL, &isIsometric)) {
+                isIsometric = !isIsometric;
+            }
             GuiLabel({ 45, 185, 200, 20 }, "Isometric View");
 
-            snapToGrid = GuiCheckBox({ 20, 210, 20, 20 }, NULL, &snapToGrid);
+            // Привязка к сетке
+            if (GuiToggle({ 20, 210, 20, 20 }, NULL, &snapToGrid)) {
+                snapToGrid = !snapToGrid;
+            }
             GuiLabel({ 45, 210, 200, 20 }, "Snap to Grid");
 
             GuiLabel({ 20, 240, 100, 20 }, "Active Texture:");
